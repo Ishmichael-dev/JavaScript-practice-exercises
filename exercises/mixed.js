@@ -35,3 +35,11 @@ function getCount(str){
     return count
 }
 console.log(getCount('education'));
+
+// exercise 4
+
+function multiply(number){
+    let nom = number.toString().replace('-', '').length;
+    return number * 5 ** nom
+}
+console.log(multiply(5));
